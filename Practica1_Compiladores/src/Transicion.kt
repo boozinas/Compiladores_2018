@@ -1,0 +1,1 @@
+class Transicion(val estadoActual: Int, val simboloTransicion: Char,  val estadoSiguiente : Int)
