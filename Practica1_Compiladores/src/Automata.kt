@@ -1,3 +1,7 @@
+/*
+-Booz Medina
+-Generador dinamico de automatas
+*/
 import java.io.File
 import kotlin.collections.ArrayList
 
