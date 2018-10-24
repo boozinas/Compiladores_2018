@@ -88,11 +88,6 @@ class Automata(val alfabeto: ArrayList<String>, var inicial: Int, var finales : 
                         camino2.add(Camino(tablaTransisiones[i].estadoSiguiente, tablaTransisiones[i].simboloTransicion))
                         if(contador2 == cadenaEntradaChar.size-1)
                             contador2++
-                        //if(finales.contains(tablaTransisiones[i].estadoSiguiente))
-                          // return camino2
-                       // println(camino2.toString())
-                        //println(contador2)
-                        //println("EL valor de i $i")
                     }
                     else -> continue@loop
                 }
